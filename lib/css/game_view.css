@@ -1,0 +1,22 @@
+body{
+  align-items: center;
+}
+
+h1 {
+  margin: 40px 0px;
+  text-align: center;
+}
+
+.game-screen{
+  margin: auto;
+  background-image: url('../images/sfz2-vega-animated.gif');
+  width: 950px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+#game-view{
+  background: transparent;
+  z-index: 10;
+}

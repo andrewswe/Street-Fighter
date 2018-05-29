@@ -1,0 +1,23 @@
+{
+  "name": "javascriptgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "webpack": "webpack --watch --mode=development",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewswe/Javascript-Game.git"
+  },
+  "author": "andrewswe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewswe/Javascript-Game/issues"
+  },
+  "homepage": "https://github.com/andrewswe/Javascript-Game#readme"
+}
