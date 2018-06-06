@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Street Fighter</title>
+    <link rel="shortcut icon" type='image/jpg' href='./lib/assets/images/pow-logo.jpg'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
         </script>
         <link rel="stylesheet" type="text/css" href="./lib/assets/css/game_view.css">
@@ -14,6 +15,23 @@
     <div class="game-screen">
       <canvas id="game-view">
       </canvas>
+    </div>
+
+    <div class='info-container'>
+      <h1 class='info-header'>
+        How To Play
+      <h2>
+      <div class='info-controls'>
+        <ul class='control-list-left'>
+          <li>a - move left</li>
+          <li>w - jump</li>
+          <li>d - move right</li>
+        </ul>
+        <ul class='control-list-right'>
+          <li>i - punch</li>
+          <li>j - kick</li>
+        </ul>
+      </div>
     </div>
     <script type="application/javascript" src="lib/bundle.js"></script>
     <audio id="gameMusic" src="./lib/assets/sounds/KenStage.mp3" /></audio>

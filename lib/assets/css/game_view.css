@@ -6,7 +6,34 @@ body{
 }
 
 div{
-  align-text: center;
+  text-align: center;
+}
+
+.info-container {
+  border: 5px solid black;
+  margin: 10px auto;
+  width: 700px;
+}
+
+.info-header {
+  margin: 20px 0px;
+  text-decoration: underline;
+}
+
+.info-controls {
+  display: flex;
+  margin: 10px 150px;
+  justify-content: space-between;
+}
+
+.control-list-left{
+  list-style: none;
+  text-align: left;
+}
+
+.control-list-right{
+  list-style: none;
+  text-align: left;
 }
 
 h1 {
